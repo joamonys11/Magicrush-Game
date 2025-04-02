@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{2BAA046C-4184-094B-0C4F-007F725763B2}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_5_3;UNITY_4_5;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Learn C Sharp\HumanMono.cs" />
+     <Compile Include="Assets\Learn C Sharp\LearnCSharp.cs" />
+     <Compile Include="Assets\Learn C Sharp\LearnCSharp2.cs" />
+     <Compile Include="Assets\Learn C Sharp\LearnCSharp3.cs" />
+     <Compile Include="Assets\Learn C Sharp\LearnCSharp4.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\BulletCollide.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\BulletMovement.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\ChaseBehaviour.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\DisplayHp.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\GatlingController.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\ModelController.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\MovementController.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\PatrolBehaviour.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\SimpleGun.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\SuperSimpleGun.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\SyncAnimationWithMovement.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\TestAnimController.cs" />
+     <Compile Include="Assets\Scripts\3rdPerson\TestCharactorController.cs" />
+     <Compile Include="Assets\Scripts\FEZPlatformController.cs" />
+     <Compile Include="Assets\Scripts\Platform\ChangeObjectController.cs" />
+     <Compile Include="Assets\Scripts\Platform\DoorBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Platform\DrunkenGuyController.cs" />
+     <Compile Include="Assets\Scripts\Platform\EnemyGun.cs" />
+     <Compile Include="Assets\Scripts\Platform\FlyBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Platform\GameLogic.cs" />
+     <Compile Include="Assets\Scripts\Platform\KeySensor.cs" />
+     <Compile Include="Assets\Scripts\Platform\PatrolBetweenTwoPoint.cs" />
+     <Compile Include="Assets\Scripts\Platform\PlayerHealth.cs" />
+     <Compile Include="Assets\Scripts\Platform\RespawnIfFall.cs" />
+     <Compile Include="Assets\Scripts\Platform\SimpleEnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Platform\TestPlzDelete.cs" />
+     <Compile Include="Assets\Scripts\Platform\TimeControl.cs" />
+     <Compile Include="Assets\Scripts\Platform\WaitAndDoSomething.cs" />
+     <Compile Include="Assets\Scripts\Platform\WarpPortal.cs" />
+     <Compile Include="Assets\Scripts\Tools\TextParticle.cs" />
+     <Compile Include="Assets\Scripts\Tools\WaitAndDestroy.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankBulletP1.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankBulletP2.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankGameLogic.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankGunP1.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankGunP2.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankMoveP1.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankMoveP2.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankScoreP1.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TankScoreP2.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TurretP1.cs" />
+     <Compile Include="Assets\TankGame\Scripts\TurretP2.cs" />
+     <Compile Include="Assets\script\controlchar.cs" />
+     <Compile Include="Assets\script\enemy.cs" />
+     <Compile Include="Assets\script\enemy1.cs" />
+     <Compile Include="Assets\script\energyspwn.cs" />
+     <Compile Include="Assets\script\mon.cs" />
+     <Compile Include="Assets\script\monleft.cs" />
+     <Compile Include="Assets\script\monright.cs" />
+     <Compile Include="Assets\script\npc1walkright.cs" />
+     <Compile Include="Assets\script\rabbitspwn.cs" />
+     <Compile Include="Assets\script\rableft.cs" />
+     <Compile Include="Assets\script\rabright.cs" />
+     <Compile Include="Assets\script\spawnnpc.cs" />
+     <Compile Include="Assets\script\stopinpoint.cs" />
+     <Compile Include="Assets\script\turretspawn.cs" />
+     <None Include="Assets\_3D Models\LowPolySchoolGirl\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\Audios\Free Pack\Metal Loop Pack\readme Unity.txt" />
+     <None Include="Assets\_3D Models\LowPolySchoolGirl\Standard Assets\Toon Shading\Sources\Shaders\Toony-BasicOutline.shader" />
+     <None Include="Assets\_3D Models\LowPolySchoolGirl\Standard Assets\Toon Shading\Sources\Shaders\Toony-LightedOutline.shader" />
+     <None Include="Assets\_3D Models\LowPolySchoolGirl\Standard Assets\Toon Shading\Sources\Shaders\Toony-Lighted.shader" />
+     <None Include="Assets\Audios\Free Pack\Readme.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

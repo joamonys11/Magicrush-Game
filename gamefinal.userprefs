@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\energyspwn.cs">
+    <Files>
+      <File FileName="Assets\script\energyspwn.cs" Line="30" Column="7" />
+      <File FileName="Assets\script\controlchar.cs" Line="1" Column="1" />
+      <File FileName="Assets\menu.js" Line="1" Column="1" />
+      <File FileName="Assets\script\turretbig.js" Line="1" Column="1" />
+      <File FileName="Assets\guihow.js" Line="1" Column="1" />
+      <File FileName="Assets\guiover.js" Line="1" Column="1" />
+      <File FileName="Assets\guicredit.js" Line="1" Column="1" />
+      <File FileName="Assets\script\energy.js" Line="23" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

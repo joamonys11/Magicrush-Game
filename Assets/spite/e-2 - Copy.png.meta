@@ -1,0 +1,103 @@
+fileFormatVersion: 2
+guid: 21ebbd1f7a6e2c440a2605da4117e08e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: e-2 - Copy
+    21300002: e-2 - Copy_0
+    21300004: e-2 - Copy_1
+    21300006: e-2 - Copy_2
+    21300008: e-2 - Copy_3
+    21300010: e-2 - Copy_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: e-2 - Copy_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1156
+        width: 530
+        height: 1143
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: e-2 - Copy_1
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1161
+        width: 520
+        height: 1119
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: e-2 - Copy_2
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 1163
+        width: 535
+        height: 1092
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: e-2 - Copy_3
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 1144
+        width: 523
+        height: 1092
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: e-2 - Copy_4
+      rect:
+        serializedVersion: 2
+        x: 2862
+        y: 1122
+        width: 687
+        height: 1148
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
